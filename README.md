@@ -114,7 +114,7 @@ Install Ollama from [ollama.com](https://ollama.com/), then pull the required mo
 
 ```bash
 # LLM for chat and answer generation
-ollama pull qwen2.5-coder:0.5b
+ollama pull phi3:mini
 
 # Embedding model for semantic search
 ollama pull nomic-embed-text
