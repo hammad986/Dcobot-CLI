@@ -1,0 +1,74 @@
+# Document Intelligence Assistant
+# Production .gitignore
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# ── Virtual Environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ── Testing ───────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ── Storage & Indexes (generated at runtime) ─────────────────
+storage/
+chroma/
+faiss/
+*.faiss
+*.pkl
+
+# ── Logs ──────────────────────────────────────────────────────
+logs/
+*.log
+document_qa.log
+
+# ── Generated caches & metadata ───────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+.indexed_hashes.json
+summaries/
+
+# ── Uploaded document copies ──────────────────────────────────
+docs/
+
+# ── API Keys & Secrets ────────────────────────────────────────
+.env
+*.secret
+secrets.yaml
+credentials.json
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+desktop.ini
